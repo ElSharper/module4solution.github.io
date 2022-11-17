@@ -1,11 +1,11 @@
 (function () {
 
-    var names = ["Mehdi", "El", "Adel", "Paf", "kad", "dolmi", "feddy", "karim", "Zak", "El Mehdi"];
+    var names = ["Mehdi", "El", "Adel", "Paf", "Ead", "dolmi", "feddy", "karim", "Zak", "El Mehdi"];
     
     for (var i = 0; i < names.length; i++) {
     
       var firstLetter = names[i].charAt(0).toLowerCase();
-      if (firstLetter === 'j') {
+      if (firstLetter === 'E') {
         byeSpeaker.speak(names[i]);
       } 
       else {
